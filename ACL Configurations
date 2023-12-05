@@ -3,7 +3,7 @@ ACL COMMANDS
 R1
 no access-list 1
 access-list 1 permit any
-int se0/h0/0
+int se0/0/0
 ip access-group 1 out
 
 R2
